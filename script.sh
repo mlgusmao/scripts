@@ -13,10 +13,3 @@ rustup update stable
 apt install git -y
 git clone --branch v0.1.6-alpha https://github.com/eqlabs/pathfinder.git
 sudo apt install python3.8-venv
-cd pathfinder/py
-python3 -m venv .venv
-source .venv/bin/activate
-PIP_REQUIRE_VIRTUALENV=true pip install --upgrade pip
-PIP_REQUIRE_VIRTUALENV=true pip install -r requirements-dev.txt
-pytest
-cargo build --release --bin pathfinder
