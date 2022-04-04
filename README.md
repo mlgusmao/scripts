@@ -20,6 +20,8 @@ StarkNet
 
 ![image](https://user-images.githubusercontent.com/13002800/161461907-5c318b9c-2df9-46c7-b80e-c6fc11931b11.png)
 
-cargo run --release --bin pathfinder -- --ethereum.url https://eth-mainnet.alchemyapi.io/v2/ + API
+и вводим команду
+
+5) cargo run --release --bin pathfinder -- --ethereum.url https://eth-mainnet.alchemyapi.io/v2/ + API
 
 пример: cargo run --release --bin pathfinder -- --ethereum.url https://eth-mainnet.alchemyapi.io/v2/0lzOxxxxxxxxxxxOpJRwLa4ypK
